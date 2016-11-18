@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  view2.h
 //  hit_TestDemo
 //
 //  Created by rwli on 16/11/19.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface view2 : UIView
+
 
 
 @end
-

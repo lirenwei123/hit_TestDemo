@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		FB07261A1DDF62710025483C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0726191DDF62710025483C /* main.m */; };
 		FB07261D1DDF62710025483C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB07261C1DDF62710025483C /* AppDelegate.m */; };
-		FB0726201DDF62710025483C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB07261F1DDF62710025483C /* ViewController.m */; };
 		FB0726231DDF62710025483C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0726211DDF62710025483C /* Main.storyboard */; };
 		FB0726251DDF62710025483C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0726241DDF62710025483C /* Assets.xcassets */; };
 		FB0726281DDF62710025483C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0726261DDF62710025483C /* LaunchScreen.storyboard */; };
+		FB0726311DDF6A0B0025483C /* view1.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0726301DDF6A0B0025483C /* view1.m */; };
+		FB0726341DDF6A180025483C /* view2.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0726331DDF6A180025483C /* view2.m */; };
+		FB450EAE1DDF748D00EB23D2 /* btn.m in Sources */ = {isa = PBXBuildFile; fileRef = FB450EAD1DDF748D00EB23D2 /* btn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		FB0726191DDF62710025483C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB07261B1DDF62710025483C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB07261C1DDF62710025483C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB07261E1DDF62710025483C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB07261F1DDF62710025483C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FB0726221DDF62710025483C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB0726241DDF62710025483C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB0726271DDF62710025483C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB0726291DDF62710025483C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB07262F1DDF6A0B0025483C /* view1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view1.h; sourceTree = "<group>"; };
+		FB0726301DDF6A0B0025483C /* view1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view1.m; sourceTree = "<group>"; };
+		FB0726321DDF6A180025483C /* view2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view2.h; sourceTree = "<group>"; };
+		FB0726331DDF6A180025483C /* view2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view2.m; sourceTree = "<group>"; };
+		FB450EAC1DDF748D00EB23D2 /* btn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btn.h; sourceTree = "<group>"; };
+		FB450EAD1DDF748D00EB23D2 /* btn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,13 @@
 			children = (
 				FB07261B1DDF62710025483C /* AppDelegate.h */,
 				FB07261C1DDF62710025483C /* AppDelegate.m */,
-				FB07261E1DDF62710025483C /* ViewController.h */,
-				FB07261F1DDF62710025483C /* ViewController.m */,
 				FB0726211DDF62710025483C /* Main.storyboard */,
+				FB07262F1DDF6A0B0025483C /* view1.h */,
+				FB0726301DDF6A0B0025483C /* view1.m */,
+				FB0726321DDF6A180025483C /* view2.h */,
+				FB0726331DDF6A180025483C /* view2.m */,
+				FB450EAC1DDF748D00EB23D2 /* btn.h */,
+				FB450EAD1DDF748D00EB23D2 /* btn.m */,
 				FB0726241DDF62710025483C /* Assets.xcassets */,
 				FB0726261DDF62710025483C /* LaunchScreen.storyboard */,
 				FB0726291DDF62710025483C /* Info.plist */,
@@ -151,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB0726201DDF62710025483C /* ViewController.m in Sources */,
+				FB0726311DDF6A0B0025483C /* view1.m in Sources */,
+				FB450EAE1DDF748D00EB23D2 /* btn.m in Sources */,
 				FB07261D1DDF62710025483C /* AppDelegate.m in Sources */,
 				FB07261A1DDF62710025483C /* main.m in Sources */,
+				FB0726341DDF6A180025483C /* view2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4R399838VG;
 				INFOPLIST_FILE = hit_TestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "companynet.comofLRW.hit-TestDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4R399838VG;
 				INFOPLIST_FILE = hit_TestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "companynet.comofLRW.hit-TestDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +326,7 @@
 				FB07262E1DDF62710025483C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
